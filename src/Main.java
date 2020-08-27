@@ -5,8 +5,6 @@ public class Main {
         long bonusPercent = 1;
         long totalBonus;
         long totalBalance;
-
-
         if (replenishment < 1000) {
             System.out.print("Your balance = ");
             totalBalance = balance + replenishment;
